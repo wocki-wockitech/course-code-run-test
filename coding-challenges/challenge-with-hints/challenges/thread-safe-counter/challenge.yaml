@@ -1,0 +1,22 @@
+id: ch100002-0000-0000-0000-000000000002
+title: "Thread-safe Counter"
+description: |
+  Implement a thread-safe counter with methods Inc(), Dec(), and Value().
+  Multiple goroutines will call these methods concurrently.
+
+language: go
+timeout_sec: 20
+
+limits:
+  memory_mb: 512
+  cpu_cores: 1
+
+files:
+  template: counter.go
+  tests: counter_test.go
+  solution: solution/counter.go
+
+hints:
+  - "Use sync.Mutex to protect the counter value."
+  - "Lock() before modifying, defer Unlock() after Lock()."
+  - "The Value() method also needs locking — a reader can race with a writer."

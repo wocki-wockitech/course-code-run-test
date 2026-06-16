@@ -1,0 +1,29 @@
+id: a1b2c3d4-5678-90ab-cdef-playground0001
+slug: code-run-test
+title:
+  ru: "Playground & Code Challenges"
+  en: "Playground & Code Challenges"
+description:
+  ru: >
+    Демо-курс: примеры работы всех типов code-блоков платформы —
+    playground, coding challenge, lint, race, bench, SQL.
+  en: >
+    Demo course: examples of all platform code block types —
+    playground, coding challenge, lint, race, bench, SQL.
+default_language: ru
+languages: [ru, en]
+difficulty: beginner
+tags:
+  - playground
+  - sandbox
+  - coding
+  - demo
+license: CC-BY-4.0
+authors:
+  - name: "WockiTech"
+    url: "https://github.com/wocki-wockitech"
+
+blocks:
+  - playground-basics
+  - coding-challenges
+  - advanced-modes

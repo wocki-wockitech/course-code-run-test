@@ -1,0 +1,17 @@
+# Calls the reusable workflow from the template repo.
+# Logic lives in studyme-course-template — no need to sync this file.
+# Runs on every PR — the action is idempotent (no-op if all IDs filled).
+
+name: StudyMe — Auto-fill IDs
+
+on:
+  pull_request:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  fill-ids:
+    uses: wocki-wockitech/studyme-course-template/.github/workflows/_reusable-fill-ids.yml@main
+    secrets: inherit
