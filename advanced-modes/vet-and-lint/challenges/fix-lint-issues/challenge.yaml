@@ -1,0 +1,21 @@
+id: ch100004-0000-0000-0000-000000000004
+title: "Fix lint issues"
+description: |
+  The code below has several common Go issues that `go vet` and linters catch.
+  Fix all of them so the code passes `go vet` cleanly.
+
+language: go
+test_mode: vet
+timeout_sec: 15
+
+limits:
+  memory_mb: 256
+
+files:
+  template: main.go
+  solution: solution/main.go
+
+hints:
+  - "Check fmt.Printf format verbs — %d expects an integer."
+  - "An error return from os.Open is being ignored."
+  - "A variable is being shadowed in the if block."

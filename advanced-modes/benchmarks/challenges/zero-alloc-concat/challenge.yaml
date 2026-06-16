@@ -1,0 +1,26 @@
+id: ch100006-0000-0000-0000-000000000006
+title: "Zero-alloc String Concat"
+description: |
+  The function `Concat(parts []string) string` joins strings into one.
+  Current implementation uses naive `+` concatenation.
+  Optimize it to produce zero allocations per call (amortized).
+
+language: go
+test_mode: bench
+timeout_sec: 30
+
+limits:
+  memory_mb: 512
+
+files:
+  template: concat.go
+  tests: concat_test.go
+  solution: solution/concat.go
+
+bench_threshold:
+  allocs_max: 1
+
+hints:
+  - "strings.Builder grows its buffer and avoids per-append allocations."
+  - "Pre-calculate total length with a loop, then use Builder.Grow()."
+  - "Builder.String() does one final allocation — that's the 1 allowed."

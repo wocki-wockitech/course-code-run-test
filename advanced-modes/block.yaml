@@ -1,0 +1,17 @@
+id: b1000003-0000-0000-0000-000000000003
+title:
+  ru: "Расширенные mode: vet, race, lint, bench"
+  en: "Advanced Modes: vet, race, lint, bench"
+description:
+  ru: "Проверка идиоматичности, конкурентности и производительности кода"
+  en: "Checking code idioms, concurrency, and performance"
+
+lessons:
+  - vet-and-lint
+  - race-detector
+  - benchmarks
+
+test:
+  question_count: 3
+  pass_threshold: 0.7
+  prefer_failed: true

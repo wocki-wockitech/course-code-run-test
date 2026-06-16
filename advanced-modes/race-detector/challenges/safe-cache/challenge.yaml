@@ -1,0 +1,24 @@
+id: ch100005-0000-0000-0000-000000000005
+title: "Thread-safe Cache"
+description: |
+  Implement a simple key-value cache that is safe for concurrent use.
+  Methods: Set(key, value string), Get(key string) (string, bool).
+  The race detector must find no races.
+
+language: go
+test_mode: test_race
+timeout_sec: 30
+
+limits:
+  memory_mb: 2048
+  cpu_cores: 1
+
+files:
+  template: cache.go
+  tests: cache_test.go
+  solution: solution/cache.go
+
+hints:
+  - "sync.RWMutex allows multiple readers OR one writer."
+  - "RLock() for Get(), Lock() for Set()."
+  - "Don't forget to defer the Unlock."

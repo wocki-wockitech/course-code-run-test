@@ -1,0 +1,17 @@
+id: b1000002-0000-0000-0000-000000000002
+title:
+  ru: "Coding Challenges"
+  en: "Coding Challenges"
+description:
+  ru: "Задачи с автоматической проверкой: тесты, вердикт, подсказки"
+  en: "Tasks with automatic grading: tests, verdict, hints"
+
+lessons:
+  - basic-challenge
+  - challenge-with-hints
+  - sql-challenge
+
+test:
+  question_count: 3
+  pass_threshold: 0.7
+  prefer_failed: true

@@ -1,0 +1,20 @@
+id: ch100001-0000-0000-0000-000000000001
+title: "Implement Sum"
+description: |
+  Implement a function `Sum(a, b int) int` that returns the sum of two integers.
+
+language: go
+timeout_sec: 20
+
+limits:
+  memory_mb: 256
+  cpu_cores: 1
+
+files:
+  template: solution.go
+  tests: solution_test.go
+  solution: solution/solution.go
+
+hints:
+  - "Remember Go uses `+` for integer addition."
+  - "Function signature: `func Sum(a, b int) int`."

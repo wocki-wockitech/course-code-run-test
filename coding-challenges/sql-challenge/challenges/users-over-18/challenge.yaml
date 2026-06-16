@@ -1,0 +1,23 @@
+id: ch100003-0000-0000-0000-000000000003
+title: "Find users older than 18"
+description: |
+  Write a SELECT query that returns all rows from `users`
+  where `age > 18`, ordered by `name` ascending.
+
+language: sql
+timeout_sec: 10
+
+limits:
+  memory_mb: 256
+
+files:
+  setup: setup.sql
+  template: solution.sql
+  solution: solution/solution.sql
+
+comparison:
+  mode: exact_rows
+
+hints:
+  - "Use `WHERE age > 18`."
+  - "Add `ORDER BY name ASC` to sort."
