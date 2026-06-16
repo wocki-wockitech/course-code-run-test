@@ -1,5 +1,5 @@
 ---
-id: l1000006-0000-0000-0000-000000000006
+id: 505e3396-7091-4925-8d63-00b70be8920a
 title: "SQL Challenge"
 estimated_minutes: 8
 ---

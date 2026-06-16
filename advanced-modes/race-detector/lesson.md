@@ -1,5 +1,5 @@
 ---
-id: l1000008-0000-0000-0000-000000000008
+id: 8fe56b96-02c0-441f-aaf6-392d5c7e6d76
 title: "Race Detector"
 estimated_minutes: 10
 ---

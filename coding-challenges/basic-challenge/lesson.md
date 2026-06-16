@@ -1,5 +1,5 @@
 ---
-id: l1000004-0000-0000-0000-000000000004
+id: d1354dd6-d8cd-4da9-b0d3-4c370afa4a96
 title: "Первый challenge"
 estimated_minutes: 10
 ---

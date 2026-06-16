@@ -1,4 +1,4 @@
-id: ch100006-0000-0000-0000-000000000006
+id: 5e79b86b-cd45-4581-ac51-1153cd6543fb
 title: "Zero-alloc String Concat"
 description: |
   The function `Concat(parts []string) string` joins strings into one.

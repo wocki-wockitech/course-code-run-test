@@ -1,4 +1,4 @@
-id: ch100002-0000-0000-0000-000000000002
+id: 40827d4a-31eb-4ae6-b34b-63a477ff9ac5
 title: "Thread-safe Counter"
 description: |
   Implement a thread-safe counter with methods Inc(), Dec(), and Value().

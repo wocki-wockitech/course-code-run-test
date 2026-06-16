@@ -1,4 +1,4 @@
-id: ch100004-0000-0000-0000-000000000004
+id: de563113-0dc1-49b6-9885-835801103942
 title: "Fix lint issues"
 description: |
   The code below has several common Go issues that `go vet` and linters catch.
