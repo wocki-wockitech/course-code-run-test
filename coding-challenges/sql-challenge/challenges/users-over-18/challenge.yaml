@@ -5,6 +5,7 @@ description: |
   where `age > 18`, ordered by `name` ascending.
 
 language: sql
+type: sql
 timeout_sec: 10
 
 limits:
