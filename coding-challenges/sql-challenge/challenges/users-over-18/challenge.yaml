@@ -1,4 +1,4 @@
-id: ch100003-0000-0000-0000-000000000003
+id: 006a858d-439b-457b-9a1b-c098daec4f82
 title: "Find users older than 18"
 description: |
   Write a SELECT query that returns all rows from `users`

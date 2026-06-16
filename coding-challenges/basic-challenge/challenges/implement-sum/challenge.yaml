@@ -1,4 +1,4 @@
-id: ch100001-0000-0000-0000-000000000001
+id: 85d762ef-e00e-4e06-8dd6-bc4e43bcac45
 title: "Implement Sum"
 description: |
   Implement a function `Sum(a, b int) int` that returns the sum of two integers.

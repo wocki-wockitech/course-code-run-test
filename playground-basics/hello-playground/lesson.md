@@ -1,5 +1,5 @@
 ---
-id: l1000001-0000-0000-0000-000000000001
+id: 6ac4a69f-355e-470c-830a-f94d2acddb79
 title: "Привет, Playground"
 estimated_minutes: 5
 ---

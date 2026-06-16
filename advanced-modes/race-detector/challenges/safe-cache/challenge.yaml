@@ -1,4 +1,4 @@
-id: ch100005-0000-0000-0000-000000000005
+id: 2dab6754-cae9-4eb2-a781-3b3a1e3e85ce
 title: "Thread-safe Cache"
 description: |
   Implement a simple key-value cache that is safe for concurrent use.

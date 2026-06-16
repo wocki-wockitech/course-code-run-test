@@ -1,5 +1,5 @@
 ---
-id: l1000007-0000-0000-0000-000000000007
+id: 57a9fc52-fa43-4a69-b0e4-b2db05d3c2d5
 title: "Vet и Lint"
 estimated_minutes: 8
 ---

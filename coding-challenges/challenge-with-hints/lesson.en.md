@@ -1,5 +1,5 @@
 ---
-id: l1000005-0000-0000-0000-000000000005
+id: 802fd2f0-a526-432b-9bd3-51da2b6dae2a
 title: "Challenge with Hints"
 estimated_minutes: 10
 ---
