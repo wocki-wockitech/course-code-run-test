@@ -18,7 +18,7 @@ Playground supports multiple files — like a real Go project with packages.
 
 ## Example: package + main
 
-> [!sandbox] go
+> [!sandbox] multi-pkg
 
 Try creating a file `utils/math.go` with a function `Add(a, b int) int` and call it from `main.go`.
 

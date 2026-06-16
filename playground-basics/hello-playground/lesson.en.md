@@ -18,7 +18,7 @@ Under the hood: your code is sent to the server → an ephemeral Kubernetes pod 
 
 ## Try it
 
-> [!sandbox] go
+> [!sandbox] hello-world
 
 Change the program — print your name. Click Run.
 

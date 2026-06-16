@@ -36,6 +36,6 @@ Student cannot switch — learning on a specific version.
 
 ## Try different languages
 
-> [!sandbox] go
+> [!sandbox] go-playground
 
-> [!sandbox] php
+> [!sandbox] php-playground
