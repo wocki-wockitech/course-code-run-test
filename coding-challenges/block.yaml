@@ -10,8 +10,3 @@ lessons:
   - basic-challenge
   - challenge-with-hints
   - sql-challenge
-
-test:
-  question_count: 3
-  pass_threshold: 0.7
-  prefer_failed: true
