@@ -1,0 +1,10 @@
+id: 3b8c4d5e-6f7a-8b9c-0d1e-2f3a4b5c6d7e
+language: go
+layout: flat
+actions: [run]
+allow_add_files: false
+files:
+  - path: main.go
+    readonly: false
+  - path: example_test.go
+    readonly: true
